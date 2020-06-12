@@ -1,0 +1,21 @@
+Libraries Used
+router: npm install --save react-router-dom
+
+primecomponents
+npm install primereact --save
+npm install primeicons --save
+npm i --save primeflex
+
+add in index.js
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.css';
+import 'primeicons/primeicons.css';
+import "primeflex/primeflex.css";
+
+
+"react-transition-group": "^2.5.1"
+"classnames": "^2.2.6",
+
+Bootstrap
+npm i --save bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
