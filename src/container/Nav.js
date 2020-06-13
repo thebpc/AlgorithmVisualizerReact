@@ -23,7 +23,7 @@ function Nav(props) {
           </li>
           <li className={activeRouteName==='BS'?"nav-item active activate":"nav-item"} onClick={()=>changeActiveRoute('BS')}>
             <Link  className="nav-link" to="/BS">
-              Binary Search
+              Visualize
             </Link>
           </li>
           <li className={activeRouteName==='ABOUT'?"nav-item active activate":"nav-item"} onClick={()=>changeActiveRoute('ABOUT')}>

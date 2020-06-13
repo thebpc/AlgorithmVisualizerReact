@@ -3,6 +3,7 @@ import ArrayBox from "../components/BSComponents/ArrayBox";
 import BinarySearch from "../components/BSComponents/BinarySearchAlgo";
 import Binarysearchcontrols from '../components/BSComponents/Binarysearchcontrols';
 import Binarysearchdashboard from '../components/BSComponents/Binarysearchdashboard';
+import ColorCodePanel from '../components/BSComponents/ColorCodePanel';
 
 function BS() {
   const [arr, setArr] = React.useState([]);
@@ -160,6 +161,9 @@ function BS() {
       </div>
       <div style={{'marginTop':'30px','marginLeft':'40px'}} className="p-col-3">
         <Binarysearchdashboard iteration={count} searchresult={result}></Binarysearchdashboard>
+      </div>
+      <div style={{'marginTop':'30px','marginLeft':'40px'}} className="p-col-3">
+        <ColorCodePanel></ColorCodePanel>
       </div>
       
       <div
